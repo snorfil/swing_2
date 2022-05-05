@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="design1">
+  <grid id="27dc6" binding="padre" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+    <constraints>
+      <xy x="20" y="20" width="624" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="90de6" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="7d8f" class="javax.swing.JButton" binding="btn_showall">
+            <constraints/>
+            <properties>
+              <text value="Cargar/mostrar todos"/>
+            </properties>
+          </component>
+          <component id="13778" class="javax.swing.JButton" binding="btn_menor">
+            <constraints/>
+            <properties>
+              <text value="Menor edad"/>
+            </properties>
+          </component>
+          <component id="8b845" class="javax.swing.JButton" binding="btn_mayoredad">
+            <constraints/>
+            <properties>
+              <text value="Mayor edad"/>
+            </properties>
+          </component>
+          <component id="a5a33" class="javax.swing.JButton" binding="burcarIdButton" default-binding="true">
+            <constraints/>
+            <properties>
+              <text value="Burcar Id"/>
+            </properties>
+          </component>
+          <component id="41d09" class="javax.swing.JTextArea" binding="txt_edittext">
+            <constraints/>
+            <properties>
+              <text value=""/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="e69a0" binding="padre_tabla" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="38b90" class="javax.swing.JTable" binding="table1" default-binding="true">
+            <constraints/>
+            <properties>
+              <autoResizeMode value="2"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
